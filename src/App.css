@@ -1,38 +1,69 @@
 .App {
-  text-align: center;
+  text-align: left;
+  width:100vw;
+  height:100vh;
+  overflow-x:hidden;
+  font-family: cambria;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.col-action-div {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: center; 
+  align-items: center;      
+  height: 100%;           
+}
+
+.col-action-div button {
   color: white;
+  height: 70%;             
+  flex: 1;               
+  margin: 0 2px;           
+  padding: 0;           
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  border: none;
+}
+.col-action-div button:nth-of-type(1) {
+  background-color: green; /* Edit button */
 }
 
-.App-link {
-  color: #61dafb;
+.col-action-div button:nth-of-type(2) {
+  background-color: red; /* Delete button */
+}
+.col-action-div button:nth-of-type(3) {
+  background-color: rgb(94, 56, 190); /* Print button */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Hover effect for both buttons */
+.col-action-div button:hover {
+  background-color: #0056b3;
 }
+.custom-header {
+  text-align: center;
+  background: gainsboro;
+  transition: background-color 0.3s; 
+  margin: 0;
+  padding: 0;
+}
+.custom-header:hover {
+  background-color: gainsboro !important; /* Force hover color */
+}
+
+.action-cell {
+  display: flex;
+  align-items: center;    /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  gap: 1px;                /* Space between buttons */
+  height: 100%;            /* Full height of cell */
+}
+
+.action-cell button {
+  padding: 3px 5px;
+  font-size: 11px;
+  cursor: pointer;
+  border: none;            /* Remove default border */
+  border-radius: 8px;     /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+

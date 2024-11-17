@@ -1,0 +1,12 @@
+.overall2 {
+    height:76vh;
+    width: 100%;
+    padding: 0px;
+    background-color: rgb(43, 6, 128);
+    box-sizing: border-box;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
+    overflow-y: scroll;
+  }

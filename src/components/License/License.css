@@ -1,0 +1,67 @@
+.licenseform-divmain {
+  height: 88vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+.licenseform-container {
+  width: 30%;
+  height: auto;
+  background-color: whitesmoke;
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap:10px;
+}
+
+.licenseform-inputgroup{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.licenseform-inputgroup1{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.licenseform-inputgroup1 label{
+ 
+  width: 25%;
+}
+.licenseform-inputgroup label{
+    width: 50%;
+}
+.licenseform-btngroup{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.licenseform-btngroup button {
+  width: 75px;
+  height: 30px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 2px;
+}
+
+.licenseform-btngroup button:hover {
+  background-color: #0056b3;
+}
+.licenseform-container .checkbox-group{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}

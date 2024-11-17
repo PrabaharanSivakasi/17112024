@@ -1,0 +1,21 @@
+.mymarquee {
+    height:3vh;
+    width: 90%;
+    margin-left: 5%;
+    padding: 0px;
+    background-color: lightyellow;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    font-size: 12px;
+  }
+
+  .mymarquee h3 {
+    font-weight: 200;
+  }
+
+  .bellicon {
+    margin-right: 5px;
+  }
+
+

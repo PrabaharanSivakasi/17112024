@@ -1,0 +1,206 @@
+.navbar-header {
+    height:6vh;
+    width: 100%;
+    padding: 0px;
+    padding-left:2%;
+    padding-right:3%;
+    background-color: rgb(6, 128, 128);
+    box-sizing: border-box;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+  }
+.navbarHomeicon{
+  color: white;
+  font-size: 20px;
+}
+  .navbar-header .navbar-logo{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left:1rem;
+  }
+
+  .navbar-header .navbar-item {
+    color: white;
+    font-size: 20px;
+    height:100%;
+    width:10%;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .navbar-header .navbar-item li{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  .navbar-header .navbar-item li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    display: block;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 3px;
+  }
+
+  .navbar-header .navbar-item li:hover{
+    font-weight: 900;
+    color:#ccc;
+  }
+
+  .navbar-header .navbar-item li:hover a .loginicon{
+    font-weight:600;
+    color:white;
+  }
+
+  .active {
+    width: 100%;
+    background-color: royalblue;  
+    color: white;  
+  }
+
+  .active:hover{
+    background-color: royalblue !important;
+  }
+
+  .navbar-btn{
+    display:none;
+  }
+
+  .profile {
+    width:100%;
+    height:auto;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+.profile h3{
+  color: black;
+  text-align: center;
+}
+  .user-pic {
+    width:40px;
+    height:auto;
+    bottom: radius 50%;
+    cursor:pointer;
+    margin-top:10px;
+    margin-left:30px;
+  }
+   
+  #subMenu {
+    width: 200px;
+    height: auto;
+    background:skyblue;
+    padding:0px 10px 10px 10px;
+    margin:10px;
+    position: absolute;
+    top: 17px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  display: none;
+    z-index: 9999;
+  }
+    #subMenu.display{
+      display: block;
+    }
+  .user-info{
+    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top: 10px;
+    padding: 3px 5px;
+    background-color: blue;
+  }
+    
+  .user-info h3{
+    font-size: 18px;
+    font-weight:500;
+    color: white;
+
+  }
+
+    
+  .user-info img {
+    width:60px;
+    border-radius:50%;
+    margin-right:15px;
+  }
+    
+  #subMenu hr{ 
+    border:0;
+    height:1px;
+    width:100%;
+    background:#ccc;
+    margin:15px 0 10px;
+  }
+    
+  .sub-menu-link {
+    width: 100%;
+    height: 30px;
+    display:flex;
+    align-items:center;
+    justify-content: flex-start;
+    text-decoration:none;
+    color:#525252;
+    margin:1px 0;
+    transition: 0.5s;
+  
+  }
+    
+  .sub-menu-link a {
+    width:100%;
+  }
+    
+  .sub-menu-link img {
+    width:40px;
+    border-radius:50%;
+    padding:8px;
+    margin-right:0px;
+  }
+
+  .sub-menu-link span {
+    font-size:18px;
+    transition:transform 0.5s;
+  }
+    
+  .sub-menu-link:hover  span {
+    transform:translateX(5px);
+  }
+    .sub-menu-link p{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      font-size: 14px;
+    }
+  .sub-menu-link:hover p {
+    font-weight:600;
+    font-size: 16px;
+  }
+  .sub-menu-link:hover{
+    font-weight:600;
+    background-color: blue;
+    color: white;
+  }
